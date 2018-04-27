@@ -296,7 +296,6 @@
     <!-- Boolean indicating whether the HWC setColorTransform function can be performed efficiently
     in hardware. -->
     <bool name="config_setColorTransformAccelerated">true</bool>
-<<<<<<< HEAD
 <!-- Hardware 'face' keys present on the device, stored as a bit field.
          This integer should equal the sum of the corresponding value for each
          of the following keys present:
@@ -330,6 +329,7 @@
     <bool name="config_multiColorBatteryLed">true</bool>
 <bool name="config_button_brightness_support">true</bool>
 <bool name="config_nightDisplayAvailable">true</bool>
+    <bool name="config_enableWifiDisplay">true</bool>
 
     <!-- Flag indicating whether round icons should be parsed from the application manifest. -->
     <bool name="config_useRoundIcon">true</bool>
