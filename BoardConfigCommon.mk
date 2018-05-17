@@ -144,6 +144,8 @@ TARGET_NO_RPC := true
 
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(VENDOR_PATH)/config.fs
+TARGET_EXFAT_DRIVER := sdfat
+TARGET_VFAT_DRIVER := sdfat
 
 # HIDL
 DEVICE_MANIFEST_FILE := $(VENDOR_PATH)/manifest.xml
