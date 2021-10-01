@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 #
-# Copyright (C) 2016 The CyanogenMod Project
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2021 The CyanogenMod Project
+# Copyright (C) 2021 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -50,7 +50,7 @@ for index, line in enumerate(lines):
         hash = sha1(file).hexdigest()
         lines[index] = '%s|%s\n' % (line, hash)
 
-with open('proprietary-files.txt', 'w') as file:
+with open('proprietary-files.txt', 'rw') as file:
     for line in lines:
         file.write(line)
 
